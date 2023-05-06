@@ -54,3 +54,32 @@ a {
 p {
     margin-bottom: 3rem;
 }
+
+.responsive-table {
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+table {
+    min-width: 36rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table caption {
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+table td, table th {
+    white-space: nowrap;
+    padding: 0.5rem;
+    text-align: left;    
+    border: 1px solid var(--light-grey-color);    
+}
+
+tfoot td, thead th {
+    background: var(--light-grey-color);
+}
